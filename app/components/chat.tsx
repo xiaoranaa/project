@@ -355,7 +355,7 @@ export function Chat(props: {
     const inputRef = useRef<HTMLTextAreaElement>(null);
     const [userInput, setUserInput] = useState("");
     const [isLoading, setIsLoading] = useState(false);
-    const [speakText, setSpeakText] = useState(Locale.Chat.Speak);
+    const [speakText, setSpeakText] = useState("语音");
     const {submitKey, shouldSubmit} = useSubmitHandler();
     const {scrollRef, setAutoScroll} = useScrollToBottom();
     const [hitBottom, setHitBottom] = useState(false);
