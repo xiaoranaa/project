@@ -29,8 +29,7 @@ const en: LocaleType = {
       }
       return inputHints;
     },
-    Send: "Send",
-    Speak: "Speak",
+    Send: "Send"
   },
   Export: {
     Title: "All Messages",
