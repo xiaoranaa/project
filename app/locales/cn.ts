@@ -27,8 +27,7 @@ const cn = {
             }
             return inputHints;
         },
-        Send: "发送",
-        Speak: "语音"
+        Send: "发送"
     },
     Export: {
         Title: "导出聊天记录为 Markdown",
